@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: OpenSans;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header__wrap {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo {
+  width: 200px;
+  height: 100px;
+}
+
+.header__logo a img {
+  width: 100%;
+}
+
+.header__nav {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style-type: none;
+}
+
+.header__nav li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.header__nav li a:hover {
+  color: #6bb615;
+}
+
+.header__content {
+  margin-top: 40px;
+  padding: 175px 0 75px 0;
+  background: url(../images/first_bg.jpg) center center/cover no-repeat;
+}
+
+.header__title {
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+
+.header__subtitle {
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.button {
+  background-color: rgba(255, 255, 255, 0);
+  border: 3px solid;
+  color: #fff;
+  width: 215px;
+  height: 65px;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 700;
+  margin-right: 25px;
+  margin-top: 100px;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.button__wrap {
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #00a88c;
+  border-color: #00a88c;
+}
+
+.button__service {
+  display: block;
+  margin: 0 auto;
+  margin-top: 45px;
+  background-color: rgba(255, 255, 255, 0);
+  color: #000;
+  border-color: #000;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.button__service:hover {
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #212121;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 15px;
+  font-weight: 400;
+  color: #303030;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 110px;
+}
+
+.service {
+  padding: 170px 0;
+  background-color: #e1fffa;
+}
+
+.service__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.service__item {
+  margin-bottom: 20px;
+  width: 32%;
+  padding: 60px 0 50px 0;
+  background-color: #ffffff;
+  -webkit-transition: all 0.6s;
+  -o-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.service__item:hover {
+  background-color: #00a88c;
+  color: #fff;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.35);
+          box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.35);
+}
+
+.service__item:hover img {
+  -webkit-filter: brightness(1) invert(1);
+          filter: brightness(1) invert(1);
+}
+
+.service__item img {
+  display: block;
+  margin: 0 auto;
+}
+
+.service__title {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 37px;
+}
+
+.service__text {
+  width: 85%;
+  display: block;
+  margin: 0 auto;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.portfolio {
+  padding: 130px 0 135px 0;
+}
+
+.portfolio__wrap {
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+}
+
+.portfolio__tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+}
+
+.portfolio__tab {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  border: 3px solid #00897b;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.portfolio__tab:hover {
+  background-color: #00897b;
+  color: #fff;
+}
+
+.portfolio__tab p {
+  margin: 25px 20px;
+}
+
+.portfolio__active {
+  background-color: #00897b;
+  color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+}
+
+.webp .header__content { background: url(../images/first_bg.webp) center center/cover no-repeat; }
